@@ -36,7 +36,7 @@ function Homepage() {
             <header>
                 <div className="logo">
                     <h1>
-                        {rendered === 'popular' ? 'Popular Anime' : 
+                        {rendered === 'popular' ? 'AnimeX' : 
                         rendered === 'airing' ? 'Airing Anime' : 'Upcoming Anime'}
                     </h1>
                 </div>
@@ -72,11 +72,12 @@ function Homepage() {
 }
 
 const HomepageStyled = styled.div`
-    background-color: #EDEDED;
+    background-color: black;
     header{
         padding: 2rem 5rem;
         width: 60%;
         margin: 0 auto;
+        color:red;
         transition: all .4s ease-in-out;
         @media screen and (max-width:1530px){
             width: 95%;
@@ -104,7 +105,7 @@ const HomepageStyled = styled.div`
                 cursor: pointer;
                 transition: all .4s ease-in-out;
                 font-family: inherit;
-                border: 5px solid #e5e7eb;
+                border: 5px solid red;
             }
             form{
                 position: relative;
@@ -121,7 +122,7 @@ const HomepageStyled = styled.div`
                     border-radius: 30px;
                     font-size: 1.2rem;
                     background-color: #fff;
-                    border: 5px solid #e5e7eb;
+                    border: 5px solid red;
                     transition: all .4s ease-in-out;
                 }
                 .input-control button{

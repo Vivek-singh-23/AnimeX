@@ -53,7 +53,7 @@ function Gallery() {
 }
 
 const GalleryStyled = styled.div`
-    background-color: #EDEDED;
+    background-color: black;
     min-height: 100vh;
     display: flex;
     flex-direction: column;

@@ -18,11 +18,11 @@ const GlobalStyle = createGlobalStyle`
             width: 7px;
         }
         &::-webkit-scrollbar-thumb{
-            background-color: #27AE60;
+            background-color: red;
             border-radius: 10px;
         }
         &::-webkit-scrollbar-track{
-            background-color: #EDEDED;
+            background-color: black;
         }
     }
 `;

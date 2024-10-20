@@ -30,7 +30,7 @@ function Sidebar() {
 
 const SidebarStyled = styled.div`
     margin-top: 2rem;
-    background-color: #fff;
+    background-color:black;
     border-top: 5px solid #e5e7eb;
     padding-right: 5rem;
     padding-left: 2rem;
